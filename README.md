@@ -68,13 +68,13 @@ W kolejnej linii pojawi się jedna liczba k – liczba połączeń lotniczych. N
 The first line of input will contain the dimensions of the map: width w and height h. The next h lines (each containing w characters) will describe the map. Each character in the description is a dot (.) representing an empty field, a cross (#) representing a road, an asterisk (*) representing a city, or a letter or number that is part of the city name.
 The next line will contain a single integer k - the number of flight connections. The next k lines will describe the connections in the format source destination time, where source is the name of the starting city, destination is the name of the destination city, and time is the flight time in minutes. The next line will contain a single integer q - the number of queries. Each query will appear on a separate line and will have the format source destination type. This is a query for the shortest travel time from the source city to the destination city. If the type is zero, the query is only for the time. If the type is one, the route should also be provided.
 
-Wyjście:/Output:
+# Wyjście:/Output:
+
 Na wyjściu należy wypisać dla każdego zapytania jedną linię. Na początku linii powinna pojawić się liczba, będąca najkrótszym czasem podróży pomiędzy miastami. Jeżeli zapytanie ma typ równy jeden, należy także wypisać, po spacji, wszystkie miasta pośrednie (bez startowego i końcowego) w kolejności ich odwiedzania.
 ------------------------------------------------------------------------------------------------------------------------
 For each query, output one line. At the beginning of the line should be the number representing the shortest travel time between the cities. If the query has a type of one, all intermediate cities (excluding the starting and ending cities) should also be listed in the order they were visited, separated by spaces.
 
-# Testy:
-<a href="http://stos.eti.pg.gda.pl/~goluch/testy/mapa.zip">Tutaj</a><br>
+# Testy: <a href="http://stos.eti.pg.gda.pl/~goluch/testy/mapa.zip">Tutaj</a>
 Opis testów:
 1 - przykład
 2 - minimalny
@@ -91,8 +91,7 @@ Opis testów:
 13 - długa ścieżka, implementacja z tablicą raczej nie zmieści się w czasie
 14 - dużo krawędzi
 
-# Tests:
-<a href="http://stos.eti.pg.gda.pl/~goluch/testy/mapa.zip">Here</a><br>
+# Tests: <a href="http://stos.eti.pg.gda.pl/~goluch/testy/mapa.zip">Here</a> 
 Opis testów:
 1 - example
 2 - minimum
