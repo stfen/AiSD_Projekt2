@@ -1,9 +1,10 @@
-##Jak Dojade?
-#autor:/author:
-#Krzysztof Ocetkiewicz
+## Jak Dojade?
+# autor:/author: Krzysztof Ocetkiewicz
 Dana jest prostokątna mapa podzielona na kwadraty. Każde pole mapy może być puste (nieprzejezdne), być fragmentem drogi (przejezdnej w każdą stronę) lub miastem (przejezdnym tak jak droga). Nazwa każdego z miast jest podana na mapie i każda litera zajmuje jedno pole (pole z literą jest nieprzejezdne). Przebycie jednego pola zajmuje minutę. Poruszać się możemy tylko pomiędzy polami sąsiadującymi bokami. Dodatkowo wybrane miasta połączone są jednokierunkowymi połączeniami lotniczymi.
 Nazwa miasta będzie sąsiadowała (bokiem lub rogiem) z miastem pierwszą lub ostatnią literą. Nazwa będzie jednoznacznie przypisana do miasta. Pole przed i za nazwą miasta (o ile będzie takie pole) nie pojawi się cyfra lub litera.
-Uwagi implementacyjne:
+
+# Uwagi implementacyjne:
+
 Nie można używać klasy string ani kontenerów z biblioteki STL.
 Można używać elementów języka C++ takich jak klasy, referencje, itp.
 Można zaimplementować własną klasę string.
